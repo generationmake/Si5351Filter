@@ -794,4 +794,48 @@ F 3 "" H 2850 4100 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	3050 4100 3950 4100
+$Comp
+L MECH_mounting-holes:MHP_3.2_5.8 MECH1
+U 1 1 611EB9B8
+P 1350 5700
+F 0 "MECH1" H 1478 5746 50  0000 L CNN
+F 1 "MHP_3.2_5.8" H 1478 5655 50  0000 L CNN
+F 2 "MECH_mounting_holes:MHP_3.2_5.8" H 1250 5750 50  0001 C CNN
+F 3 "" H 1350 5700 50  0001 C CNN
+	1    1350 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L MECH_mounting-holes:MHP_3.2_5.8 MECH2
+U 1 1 611EC658
+P 1350 5950
+F 0 "MECH2" H 1478 5996 50  0000 L CNN
+F 1 "MHP_3.2_5.8" H 1478 5905 50  0000 L CNN
+F 2 "MECH_mounting_holes:MHP_3.2_5.8" H 1250 6000 50  0001 C CNN
+F 3 "" H 1350 5950 50  0001 C CNN
+	1    1350 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power-supply:GND #PWR019
+U 1 1 611EC8B2
+P 950 6050
+F 0 "#PWR019" H 950 5800 50  0001 C CNN
+F 1 "GND" H 955 5877 50  0000 C CNN
+F 2 "" H 950 6050 50  0000 C CNN
+F 3 "" H 950 6050 50  0000 C CNN
+	1    950  6050
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 5700 950  5700
+Wire Wire Line
+	950  5700 950  5950
+Wire Wire Line
+	1050 5950 950  5950
+Connection ~ 950  5950
+Wire Wire Line
+	950  5950 950  6050
+Text Notes 950  5400 0    50   ~ 0
+holes for mounting and grounding
 $EndSCHEMATC

@@ -23,6 +23,19 @@ X ~ 5 200 -250 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# MECH_mounting-holes_MHP_3.2_5.8
+#
+DEF MECH_mounting-holes_MHP_3.2_5.8 MECH 0 40 Y Y 1 F N
+F0 "MECH" 0 150 50 H V C CNN
+F1 "MECH_mounting-holes_MHP_3.2_5.8" 50 -150 50 H V C CNN
+F2 "MECH_mounting_holes:MHP_3.2_5.8" -100 50 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -100 100 100 -100 1 1 0 N
+X 1 1 -300 0 200 R 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
 # devices_C_0603
 #
 DEF devices_C_0603 C 0 10 N N 1 F N
